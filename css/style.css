@@ -1,0 +1,194 @@
+ body{
+ 	position: relative;
+ 	font-size: 19px;
+ }
+
+dl>dt{
+	font-weight: 400;
+	font-size: 21px;
+	padding: 5px 0 5px 15px;
+	border-bottom: 1px solid #333333;
+}
+
+.desc{
+	text-align: justify;
+	padding: 5px 10px;
+	font-size: 21px;
+	font-weight: 200;
+}
+.heading{
+	margin-bottom: 2px;
+}
+ .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+ .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
+h2{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.obj p{
+	padding: 10px 0 10px 15px;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+#special{
+	margin-top: 20px;
+	color: green;
+	width: 100%;
+	border-radius: 4px;
+	height: 34px;
+	padding: 6px 12px;
+	line-height:  1.42857143;
+	font-size: 14px;
+}
+
+header .menu{
+	float: right;
+	padding-right: 15px;
+}
+
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar-brand{
+	font-size: 19px;
+}
+
+.tophead{
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	color: #337ab7;
+}
+
+.container{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.msg{
+	text-align: justify;
+}
+
+form{
+	width: 60%;
+	margin: 10px auto;
+}
+header{
+		
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*gallery*/
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container1 {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+footer{
+	position: sticky;
+	text-align: center;
+	line-height: 1;
+}
+footer p{
+	margin: 0;
+	padding: 3px 0;
+}
+
+
+
+/*media queries*/
+@media only screen and (min-width: 768px){
+	.modal-content{
+		margin-top: 100px;
+		margin-bottom: 110px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	form{
+		width: 100%;
+	}
+
+	.column {
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	}
+
+	.modal-content{
+		margin-top: 100px;
+		margin-bottom: 110px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.column {
+	    float: left;
+	    width: 100%;
+	    padding: 10px;
+	}
+
+	.modal-content{
+		margin-top: 100px;
+		margin-bottom: 110px;
+	}
+}
